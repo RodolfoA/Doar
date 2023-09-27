@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		355AD39A2AC49A6900330E7A /* DoarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355AD3992AC49A6900330E7A /* DoarApp.swift */; };
+		355AD39C2AC49A6900330E7A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355AD39B2AC49A6900330E7A /* ContentView.swift */; };
+		355AD39E2AC49A6900330E7A /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355AD39D2AC49A6900330E7A /* Item.swift */; };
+		355AD3A02AC49A6B00330E7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 355AD39F2AC49A6B00330E7A /* Assets.xcassets */; };
+		355AD3A32AC49A6B00330E7A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 355AD3A22AC49A6B00330E7A /* Preview Assets.xcassets */; };
+		355AD3AF2AC49A6B00330E7A /* DoarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355AD3AE2AC49A6B00330E7A /* DoarTests.swift */; };
+		355AD3B92AC49A6B00330E7A /* DoarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355AD3B82AC49A6B00330E7A /* DoarUITests.swift */; };
+		355AD3BB2AC49A6B00330E7A /* DoarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355AD3BA2AC49A6B00330E7A /* DoarUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		355AD3AB2AC49A6B00330E7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 355AD38E2AC49A6900330E7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 355AD3952AC49A6900330E7A;
+			remoteInfo = Doar;
+		};
+		355AD3B52AC49A6B00330E7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 355AD38E2AC49A6900330E7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 355AD3952AC49A6900330E7A;
+			remoteInfo = Doar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		355AD3962AC49A6900330E7A /* Doar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Doar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		355AD3992AC49A6900330E7A /* DoarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoarApp.swift; sourceTree = "<group>"; };
+		355AD39B2AC49A6900330E7A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		355AD39D2AC49A6900330E7A /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		355AD39F2AC49A6B00330E7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		355AD3A22AC49A6B00330E7A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		355AD3A42AC49A6B00330E7A /* Doar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Doar.entitlements; sourceTree = "<group>"; };
+		355AD3A52AC49A6B00330E7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		355AD3AA2AC49A6B00330E7A /* DoarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		355AD3AE2AC49A6B00330E7A /* DoarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoarTests.swift; sourceTree = "<group>"; };
+		355AD3B42AC49A6B00330E7A /* DoarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		355AD3B82AC49A6B00330E7A /* DoarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoarUITests.swift; sourceTree = "<group>"; };
+		355AD3BA2AC49A6B00330E7A /* DoarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		355AD3932AC49A6900330E7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		355AD3A72AC49A6B00330E7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		355AD3B12AC49A6B00330E7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		355AD38D2AC49A6900330E7A = {
+			isa = PBXGroup;
+			children = (
+				355AD3982AC49A6900330E7A /* Doar */,
+				355AD3AD2AC49A6B00330E7A /* DoarTests */,
+				355AD3B72AC49A6B00330E7A /* DoarUITests */,
+				355AD3972AC49A6900330E7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		355AD3972AC49A6900330E7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				355AD3962AC49A6900330E7A /* Doar.app */,
+				355AD3AA2AC49A6B00330E7A /* DoarTests.xctest */,
+				355AD3B42AC49A6B00330E7A /* DoarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		355AD3982AC49A6900330E7A /* Doar */ = {
+			isa = PBXGroup;
+			children = (
+				355AD3992AC49A6900330E7A /* DoarApp.swift */,
+				355AD39B2AC49A6900330E7A /* ContentView.swift */,
+				355AD39D2AC49A6900330E7A /* Item.swift */,
+				355AD39F2AC49A6B00330E7A /* Assets.xcassets */,
+				355AD3A42AC49A6B00330E7A /* Doar.entitlements */,
+				355AD3A52AC49A6B00330E7A /* Info.plist */,
+				355AD3A12AC49A6B00330E7A /* Preview Content */,
+			);
+			path = Doar;
+			sourceTree = "<group>";
+		};
+		355AD3A12AC49A6B00330E7A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				355AD3A22AC49A6B00330E7A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		355AD3AD2AC49A6B00330E7A /* DoarTests */ = {
+			isa = PBXGroup;
+			children = (
+				355AD3AE2AC49A6B00330E7A /* DoarTests.swift */,
+			);
+			path = DoarTests;
+			sourceTree = "<group>";
+		};
+		355AD3B72AC49A6B00330E7A /* DoarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				355AD3B82AC49A6B00330E7A /* DoarUITests.swift */,
+				355AD3BA2AC49A6B00330E7A /* DoarUITestsLaunchTests.swift */,
+			);
+			path = DoarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		355AD3952AC49A6900330E7A /* Doar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 355AD3BE2AC49A6B00330E7A /* Build configuration list for PBXNativeTarget "Doar" */;
+			buildPhases = (
+				355AD3922AC49A6900330E7A /* Sources */,
+				355AD3932AC49A6900330E7A /* Frameworks */,
+				355AD3942AC49A6900330E7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Doar;
+			productName = Doar;
+			productReference = 355AD3962AC49A6900330E7A /* Doar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		355AD3A92AC49A6B00330E7A /* DoarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 355AD3C12AC49A6B00330E7A /* Build configuration list for PBXNativeTarget "DoarTests" */;
+			buildPhases = (
+				355AD3A62AC49A6B00330E7A /* Sources */,
+				355AD3A72AC49A6B00330E7A /* Frameworks */,
+				355AD3A82AC49A6B00330E7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				355AD3AC2AC49A6B00330E7A /* PBXTargetDependency */,
+			);
+			name = DoarTests;
+			productName = DoarTests;
+			productReference = 355AD3AA2AC49A6B00330E7A /* DoarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		355AD3B32AC49A6B00330E7A /* DoarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 355AD3C42AC49A6B00330E7A /* Build configuration list for PBXNativeTarget "DoarUITests" */;
+			buildPhases = (
+				355AD3B02AC49A6B00330E7A /* Sources */,
+				355AD3B12AC49A6B00330E7A /* Frameworks */,
+				355AD3B22AC49A6B00330E7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				355AD3B62AC49A6B00330E7A /* PBXTargetDependency */,
+			);
+			name = DoarUITests;
+			productName = DoarUITests;
+			productReference = 355AD3B42AC49A6B00330E7A /* DoarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		355AD38E2AC49A6900330E7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					355AD3952AC49A6900330E7A = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					355AD3A92AC49A6B00330E7A = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 355AD3952AC49A6900330E7A;
+					};
+					355AD3B32AC49A6B00330E7A = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 355AD3952AC49A6900330E7A;
+					};
+				};
+			};
+			buildConfigurationList = 355AD3912AC49A6900330E7A /* Build configuration list for PBXProject "Doar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 355AD38D2AC49A6900330E7A;
+			productRefGroup = 355AD3972AC49A6900330E7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				355AD3952AC49A6900330E7A /* Doar */,
+				355AD3A92AC49A6B00330E7A /* DoarTests */,
+				355AD3B32AC49A6B00330E7A /* DoarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		355AD3942AC49A6900330E7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				355AD3A32AC49A6B00330E7A /* Preview Assets.xcassets in Resources */,
+				355AD3A02AC49A6B00330E7A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		355AD3A82AC49A6B00330E7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		355AD3B22AC49A6B00330E7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		355AD3922AC49A6900330E7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				355AD39C2AC49A6900330E7A /* ContentView.swift in Sources */,
+				355AD39E2AC49A6900330E7A /* Item.swift in Sources */,
+				355AD39A2AC49A6900330E7A /* DoarApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		355AD3A62AC49A6B00330E7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				355AD3AF2AC49A6B00330E7A /* DoarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		355AD3B02AC49A6B00330E7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				355AD3BB2AC49A6B00330E7A /* DoarUITestsLaunchTests.swift in Sources */,
+				355AD3B92AC49A6B00330E7A /* DoarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		355AD3AC2AC49A6B00330E7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 355AD3952AC49A6900330E7A /* Doar */;
+			targetProxy = 355AD3AB2AC49A6B00330E7A /* PBXContainerItemProxy */;
+		};
+		355AD3B62AC49A6B00330E7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 355AD3952AC49A6900330E7A /* Doar */;
+			targetProxy = 355AD3B52AC49A6B00330E7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		355AD3BC2AC49A6B00330E7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		355AD3BD2AC49A6B00330E7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		355AD3BF2AC49A6B00330E7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Doar/Doar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Doar/Preview Content\"";
+				DEVELOPMENT_TEAM = HE664BQ32P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Doar/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.filantropiailimitada.Doar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		355AD3C02AC49A6B00330E7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Doar/Doar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Doar/Preview Content\"";
+				DEVELOPMENT_TEAM = HE664BQ32P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Doar/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.filantropiailimitada.Doar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		355AD3C22AC49A6B00330E7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HE664BQ32P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.filantropiailimitada.DoarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Doar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Doar";
+			};
+			name = Debug;
+		};
+		355AD3C32AC49A6B00330E7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HE664BQ32P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.filantropiailimitada.DoarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Doar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Doar";
+			};
+			name = Release;
+		};
+		355AD3C52AC49A6B00330E7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HE664BQ32P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.filantropiailimitada.DoarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Doar;
+			};
+			name = Debug;
+		};
+		355AD3C62AC49A6B00330E7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HE664BQ32P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.filantropiailimitada.DoarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Doar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		355AD3912AC49A6900330E7A /* Build configuration list for PBXProject "Doar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				355AD3BC2AC49A6B00330E7A /* Debug */,
+				355AD3BD2AC49A6B00330E7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		355AD3BE2AC49A6B00330E7A /* Build configuration list for PBXNativeTarget "Doar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				355AD3BF2AC49A6B00330E7A /* Debug */,
+				355AD3C02AC49A6B00330E7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		355AD3C12AC49A6B00330E7A /* Build configuration list for PBXNativeTarget "DoarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				355AD3C22AC49A6B00330E7A /* Debug */,
+				355AD3C32AC49A6B00330E7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		355AD3C42AC49A6B00330E7A /* Build configuration list for PBXNativeTarget "DoarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				355AD3C52AC49A6B00330E7A /* Debug */,
+				355AD3C62AC49A6B00330E7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 355AD38E2AC49A6900330E7A /* Project object */;
+}
